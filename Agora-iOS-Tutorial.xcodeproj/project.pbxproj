@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2655D51D3F35E700BDBA68 /* AppID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2655D41D3F35E700BDBA68 /* AppID.swift */; };
+		1ABDEE421D383BE4007DE451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDEE411D383BE4007DE451 /* AppDelegate.swift */; };
+		1ABDEE441D383BE4007DE451 /* VideoChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDEE431D383BE4007DE451 /* VideoChatViewController.swift */; };
+		1ABDEE471D383BE4007DE451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABDEE451D383BE4007DE451 /* Main.storyboard */; };
+		1ABDEE491D383BE4007DE451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABDEE481D383BE4007DE451 /* Assets.xcassets */; };
+		1ABDEE4C1D383BE4007DE451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABDEE4A1D383BE4007DE451 /* LaunchScreen.storyboard */; };
+		38EF7E962368277700A6A483 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 38EF7E952368277700A6A483 /* README.md */; };
+		60AE09261A4563B2E004E8B5 /* Pods_Agora_iOS_Tutorial_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C87D372B6F59F0DB603105 /* Pods_Agora_iOS_Tutorial_Tests.framework */; };
+		660114FAB70F1A2B4963AE8C /* Pods_Agora_iOS_Tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BEDB0979192EF2C050D5B0 /* Pods_Agora_iOS_Tutorial.framework */; };
+		8BF7442525A58037007A0793 /* AgoraSoundTouch.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF7442025A58037007A0793 /* AgoraSoundTouch.xcframework */; };
+		8BF7442625A58037007A0793 /* Agoraffmpeg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF7442125A58037007A0793 /* Agoraffmpeg.xcframework */; };
+		8BF7442725A58037007A0793 /* AgoraCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF7442225A58037007A0793 /* AgoraCore.xcframework */; };
+		8BF7442825A58037007A0793 /* Agorafdkaac.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF7442325A58037007A0793 /* Agorafdkaac.xcframework */; };
+		8BF7442A25A58040007A0793 /* AgoraRtcKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF7441F25A58037007A0793 /* AgoraRtcKit.xcframework */; };
+		8BF7442B25A58040007A0793 /* AgoraRtcKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF7441F25A58037007A0793 /* AgoraRtcKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A72BB7DE22F2B67E008F563D /* Log.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72BB7DC22F2B67E008F563D /* Log.storyboard */; };
+		A72BB7DF22F2B67E008F563D /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BB7DD22F2B67E008F563D /* LogViewController.swift */; };
+		A77E577724ADDBE300DD7670 /* Agora_iOS_Tutorial_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E577624ADDBE300DD7670 /* Agora_iOS_Tutorial_Tests.swift */; };
+		A77E578024ADE01400DD7670 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BB7DD22F2B67E008F563D /* LogViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A77E577924ADDBE300DD7670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ABDEE361D383BE4007DE451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ABDEE3D1D383BE4007DE451;
+			remoteInfo = "Agora-iOS-Tutorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BF7442C25A58040007A0793 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8BF7442B25A58040007A0793 /* AgoraRtcKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A2655D41D3F35E700BDBA68 /* AppID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppID.swift; sourceTree = "<group>"; };
+		1ABDEE3E1D383BE4007DE451 /* Agora-iOS-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agora-iOS-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABDEE411D383BE4007DE451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ABDEE431D383BE4007DE451 /* VideoChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatViewController.swift; sourceTree = "<group>"; };
+		1ABDEE461D383BE4007DE451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ABDEE481D383BE4007DE451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ABDEE4B1D383BE4007DE451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ABDEE4D1D383BE4007DE451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C87D372B6F59F0DB603105 /* Pods_Agora_iOS_Tutorial_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agora_iOS_Tutorial_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EF7E952368277700A6A483 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		67A7E0D8CB4137CC790D5F82 /* Pods-Agora-iOS-Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora-iOS-Tutorial.release.xcconfig"; path = "Target Support Files/Pods-Agora-iOS-Tutorial/Pods-Agora-iOS-Tutorial.release.xcconfig"; sourceTree = "<group>"; };
+		7E65B5D5AE533EEFB9CFA33D /* Pods-Agora-iOS-Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora-iOS-Tutorial.debug.xcconfig"; path = "Target Support Files/Pods-Agora-iOS-Tutorial/Pods-Agora-iOS-Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		8BF7441F25A58037007A0793 /* AgoraRtcKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraRtcKit.xcframework; sourceTree = "<group>"; };
+		8BF7442025A58037007A0793 /* AgoraSoundTouch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSoundTouch.xcframework; sourceTree = "<group>"; };
+		8BF7442125A58037007A0793 /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agoraffmpeg.xcframework; sourceTree = "<group>"; };
+		8BF7442225A58037007A0793 /* AgoraCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraCore.xcframework; sourceTree = "<group>"; };
+		8BF7442325A58037007A0793 /* Agorafdkaac.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agorafdkaac.xcframework; sourceTree = "<group>"; };
+		9D54AF71FA67E3C9C04AD970 /* Pods-Agora-iOS-Tutorial-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora-iOS-Tutorial-Tests.release.xcconfig"; path = "Target Support Files/Pods-Agora-iOS-Tutorial-Tests/Pods-Agora-iOS-Tutorial-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A72BB7DC22F2B67E008F563D /* Log.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Log.storyboard; sourceTree = "<group>"; };
+		A72BB7DD22F2B67E008F563D /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		A77E577424ADDBE300DD7670 /* Agora-iOS-Tutorial-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Agora-iOS-Tutorial-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77E577624ADDBE300DD7670 /* Agora_iOS_Tutorial_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agora_iOS_Tutorial_Tests.swift; sourceTree = "<group>"; };
+		A77E577824ADDBE300DD7670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AD0EFC24AEF9B7008FFD5B /* AgoraRtcKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcKit.framework; path = "Agora-iOS-Tutorial/AgoraRtcKit.framework"; sourceTree = "<group>"; };
+		B3485C7862D7DC845AC0190C /* Pods-Agora-iOS-Tutorial-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora-iOS-Tutorial-Tests.debug.xcconfig"; path = "Target Support Files/Pods-Agora-iOS-Tutorial-Tests/Pods-Agora-iOS-Tutorial-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0BEDB0979192EF2C050D5B0 /* Pods_Agora_iOS_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agora_iOS_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABDEE3B1D383BE4007DE451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF7442625A58037007A0793 /* Agoraffmpeg.xcframework in Frameworks */,
+				8BF7442525A58037007A0793 /* AgoraSoundTouch.xcframework in Frameworks */,
+				8BF7442A25A58040007A0793 /* AgoraRtcKit.xcframework in Frameworks */,
+				8BF7442825A58037007A0793 /* Agorafdkaac.xcframework in Frameworks */,
+				8BF7442725A58037007A0793 /* AgoraCore.xcframework in Frameworks */,
+				660114FAB70F1A2B4963AE8C /* Pods_Agora_iOS_Tutorial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77E577124ADDBE300DD7670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AE09261A4563B2E004E8B5 /* Pods_Agora_iOS_Tutorial_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABDEE351D383BE4007DE451 = {
+			isa = PBXGroup;
+			children = (
+				38EF7E952368277700A6A483 /* README.md */,
+				1ABDEE401D383BE4007DE451 /* Agora-iOS-Tutorial */,
+				A77E577524ADDBE300DD7670 /* Agora-iOS-Tutorial-Tests */,
+				1ABDEE3F1D383BE4007DE451 /* Products */,
+				A7581191240790EA007EDAD3 /* Frameworks */,
+				661C2E06B0FB9AC519C5546B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABDEE3F1D383BE4007DE451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABDEE3E1D383BE4007DE451 /* Agora-iOS-Tutorial.app */,
+				A77E577424ADDBE300DD7670 /* Agora-iOS-Tutorial-Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABDEE401D383BE4007DE451 /* Agora-iOS-Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				8BF7442225A58037007A0793 /* AgoraCore.xcframework */,
+				8BF7442325A58037007A0793 /* Agorafdkaac.xcframework */,
+				8BF7442125A58037007A0793 /* Agoraffmpeg.xcframework */,
+				8BF7441F25A58037007A0793 /* AgoraRtcKit.xcframework */,
+				8BF7442025A58037007A0793 /* AgoraSoundTouch.xcframework */,
+				1ABDEE431D383BE4007DE451 /* VideoChatViewController.swift */,
+				A72BB7DD22F2B67E008F563D /* LogViewController.swift */,
+				1ABDEE411D383BE4007DE451 /* AppDelegate.swift */,
+				1A2655D41D3F35E700BDBA68 /* AppID.swift */,
+				1ABDEE451D383BE4007DE451 /* Main.storyboard */,
+				A72BB7DC22F2B67E008F563D /* Log.storyboard */,
+				A72BB7D922F2B5F4008F563D /* Supporting Files */,
+			);
+			path = "Agora-iOS-Tutorial";
+			sourceTree = "<group>";
+		};
+		661C2E06B0FB9AC519C5546B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E65B5D5AE533EEFB9CFA33D /* Pods-Agora-iOS-Tutorial.debug.xcconfig */,
+				67A7E0D8CB4137CC790D5F82 /* Pods-Agora-iOS-Tutorial.release.xcconfig */,
+				B3485C7862D7DC845AC0190C /* Pods-Agora-iOS-Tutorial-Tests.debug.xcconfig */,
+				9D54AF71FA67E3C9C04AD970 /* Pods-Agora-iOS-Tutorial-Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A72BB7D922F2B5F4008F563D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ABDEE481D383BE4007DE451 /* Assets.xcassets */,
+				1ABDEE4A1D383BE4007DE451 /* LaunchScreen.storyboard */,
+				1ABDEE4D1D383BE4007DE451 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7581191240790EA007EDAD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7AD0EFC24AEF9B7008FFD5B /* AgoraRtcKit.framework */,
+				D0BEDB0979192EF2C050D5B0 /* Pods_Agora_iOS_Tutorial.framework */,
+				25C87D372B6F59F0DB603105 /* Pods_Agora_iOS_Tutorial_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A77E577524ADDBE300DD7670 /* Agora-iOS-Tutorial-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A77E577624ADDBE300DD7670 /* Agora_iOS_Tutorial_Tests.swift */,
+				A77E577824ADDBE300DD7670 /* Info.plist */,
+			);
+			path = "Agora-iOS-Tutorial-Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABDEE3D1D383BE4007DE451 /* Agora-iOS-Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABDEE661D383BE4007DE451 /* Build configuration list for PBXNativeTarget "Agora-iOS-Tutorial" */;
+			buildPhases = (
+				01FDD361AA29617588CCD842 /* [CP] Check Pods Manifest.lock */,
+				1ABDEE3A1D383BE4007DE451 /* Sources */,
+				1ABDEE3B1D383BE4007DE451 /* Frameworks */,
+				1ABDEE3C1D383BE4007DE451 /* Resources */,
+				8BF7442C25A58040007A0793 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agora-iOS-Tutorial";
+			productName = "Agora iOS Tutorial";
+			productReference = 1ABDEE3E1D383BE4007DE451 /* Agora-iOS-Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A77E577324ADDBE300DD7670 /* Agora-iOS-Tutorial-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77E577D24ADDBE300DD7670 /* Build configuration list for PBXNativeTarget "Agora-iOS-Tutorial-Tests" */;
+			buildPhases = (
+				173D40B92E093AE1321339B7 /* [CP] Check Pods Manifest.lock */,
+				A77E577024ADDBE300DD7670 /* Sources */,
+				A77E577124ADDBE300DD7670 /* Frameworks */,
+				A77E577224ADDBE300DD7670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A77E577A24ADDBE300DD7670 /* PBXTargetDependency */,
+			);
+			name = "Agora-iOS-Tutorial-Tests";
+			productName = "Agora-iOS-Tutorial-Tests";
+			productReference = A77E577424ADDBE300DD7670 /* Agora-iOS-Tutorial-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABDEE361D383BE4007DE451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Agora.io;
+				TargetAttributes = {
+					1ABDEE3D1D383BE4007DE451 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GM72UGLGZW;
+						LastSwiftMigration = 1130;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					A77E577324ADDBE300DD7670 = {
+						CreatedOnToolsVersion = 11.5;
+						DevelopmentTeam = URLGNR2V35;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1ABDEE3D1D383BE4007DE451;
+					};
+				};
+			};
+			buildConfigurationList = 1ABDEE391D383BE4007DE451 /* Build configuration list for PBXProject "Agora-iOS-Tutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ABDEE351D383BE4007DE451;
+			productRefGroup = 1ABDEE3F1D383BE4007DE451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABDEE3D1D383BE4007DE451 /* Agora-iOS-Tutorial */,
+				A77E577324ADDBE300DD7670 /* Agora-iOS-Tutorial-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABDEE3C1D383BE4007DE451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABDEE4C1D383BE4007DE451 /* LaunchScreen.storyboard in Resources */,
+				1ABDEE491D383BE4007DE451 /* Assets.xcassets in Resources */,
+				38EF7E962368277700A6A483 /* README.md in Resources */,
+				1ABDEE471D383BE4007DE451 /* Main.storyboard in Resources */,
+				A72BB7DE22F2B67E008F563D /* Log.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77E577224ADDBE300DD7670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01FDD361AA29617588CCD842 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Agora-iOS-Tutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		173D40B92E093AE1321339B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Agora-iOS-Tutorial-Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABDEE3A1D383BE4007DE451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABDEE441D383BE4007DE451 /* VideoChatViewController.swift in Sources */,
+				1ABDEE421D383BE4007DE451 /* AppDelegate.swift in Sources */,
+				1A2655D51D3F35E700BDBA68 /* AppID.swift in Sources */,
+				A72BB7DF22F2B67E008F563D /* LogViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77E577024ADDBE300DD7670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77E577724ADDBE300DD7670 /* Agora_iOS_Tutorial_Tests.swift in Sources */,
+				A77E578024ADE01400DD7670 /* LogViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A77E577A24ADDBE300DD7670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ABDEE3D1D383BE4007DE451 /* Agora-iOS-Tutorial */;
+			targetProxy = A77E577924ADDBE300DD7670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ABDEE451D383BE4007DE451 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABDEE461D383BE4007DE451 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ABDEE4A1D383BE4007DE451 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABDEE4B1D383BE4007DE451 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ABDEE641D383BE4007DE451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ABDEE651D383BE4007DE451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ABDEE671D383BE4007DE451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E65B5D5AE533EEFB9CFA33D /* Pods-Agora-iOS-Tutorial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development: Qianze Zhang (3C9KJFP729)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: Qianze Zhang (3C9KJFP729)";
+				DEVELOPMENT_TEAM = GM72UGLGZW;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Agora-iOS-Tutorial",
+					"$(PROJECT_DIR)/../../libs",
+				);
+				INFOPLIST_FILE = "Agora-iOS-Tutorial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Agora\\ iOS\\ Tutorial",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.agora.Agora-iOS-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = App;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1ABDEE681D383BE4007DE451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A7E0D8CB4137CC790D5F82 /* Pods-Agora-iOS-Tutorial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development: Qianze Zhang (3C9KJFP729)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: Qianze Zhang (3C9KJFP729)";
+				DEVELOPMENT_TEAM = GM72UGLGZW;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Agora-iOS-Tutorial",
+					"$(PROJECT_DIR)/../../libs",
+				);
+				INFOPLIST_FILE = "Agora-iOS-Tutorial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Agora\\ iOS\\ Tutorial",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.agora.Agora-iOS-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = App;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A77E577B24ADDBE300DD7670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3485C7862D7DC845AC0190C /* Pods-Agora-iOS-Tutorial-Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URLGNR2V35;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Agora-iOS-Tutorial",
+					"$(PROJECT_DIR)/../../libs",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Agora-iOS-Tutorial-Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "CavanSu.Agora-iOS-Tutorial-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agora-iOS-Tutorial.app/Agora-iOS-Tutorial";
+			};
+			name = Debug;
+		};
+		A77E577C24ADDBE300DD7670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D54AF71FA67E3C9C04AD970 /* Pods-Agora-iOS-Tutorial-Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URLGNR2V35;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Agora-iOS-Tutorial",
+					"$(PROJECT_DIR)/../../libs",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Agora-iOS-Tutorial-Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "CavanSu.Agora-iOS-Tutorial-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agora-iOS-Tutorial.app/Agora-iOS-Tutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABDEE391D383BE4007DE451 /* Build configuration list for PBXProject "Agora-iOS-Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABDEE641D383BE4007DE451 /* Debug */,
+				1ABDEE651D383BE4007DE451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABDEE661D383BE4007DE451 /* Build configuration list for PBXNativeTarget "Agora-iOS-Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABDEE671D383BE4007DE451 /* Debug */,
+				1ABDEE681D383BE4007DE451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77E577D24ADDBE300DD7670 /* Build configuration list for PBXNativeTarget "Agora-iOS-Tutorial-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77E577B24ADDBE300DD7670 /* Debug */,
+				A77E577C24ADDBE300DD7670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ABDEE361D383BE4007DE451 /* Project object */;
+}
